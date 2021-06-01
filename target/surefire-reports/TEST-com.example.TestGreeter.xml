@@ -58,7 +58,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.example.TestGreeter" name="greetShouldIncludeGreetingMessage" time="0.005"/>
+  <testcase classname="com.example.TestGreeter" name="greetShouldIncludeGreetingMessage" time="0.006"/>
   <testcase classname="com.example.TestGreeter" name="greetShouldIncludeGreetingPhrase" time="0"/>
   <testcase classname="com.example.TestGreeter" name="greetShouldIncludeTheOneBeingGreeted" time="0"/>
 </testsuite>

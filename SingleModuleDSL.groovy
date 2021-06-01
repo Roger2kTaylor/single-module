@@ -7,7 +7,7 @@ job("Maven-Project-DSL") {
 		scm('* * * * *')
 	}
 	steps {
-		maven('clean package', 'D:\Libraries\DevOps\03.Automation-Labs\MasterClass\single-module\pom.xml')
+		maven('clean package', '//D:/Libraries/DevOps/03.Automation-Labs/MasterClass/single-module/pom.xml')
 	}
 	publishers {
 		//archive the war file generated

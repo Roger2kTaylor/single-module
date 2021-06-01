@@ -11,6 +11,6 @@ job("Maven-Project-DSL") {
 	}
 	publishers {
 		//archive the war file generated
-		archiveArtifacts '**/*.war'
+		archiveArtifacts '**/*.jar'
 	}
 }

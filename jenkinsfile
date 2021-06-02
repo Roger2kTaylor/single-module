@@ -14,7 +14,7 @@ pipline {
 		}
 		stage('deploy') {
 			steps {
-				echo 'Deploying to staging area'
+				echo 'Deploying to the staging area'
 			}
 		}
 	} 

@@ -1,22 +1,26 @@
-pipline {
-	agent any
-	stages {
-		stage('init') {
-			steps {
-				echo 'Hi, this is Roger Taylor from SkyeNets'
-				echo 'We are starting the Testing'
-			}
-		}
-		stage('build') {
-			steps {
-				echo 'Building Sample Maven Project'
-			}
-		}
-		stage('deploy') {
-			steps {
-				echo 'Deploying to the staging area'
-			}
-		}
-	} 
-
+pipeline {
+      agent any
+      stages {
+            stage('Init') {
+                  steps {
+                        echo 'Hi, this is Roger from SkyeNets '
+                        echo 'We are Starting the Testing'
+                  }
+            }
+            stage('Build') {
+                  steps {
+                        echo 'Building Sample Maven Project'
+                  }
+            }
+            stage('Deploy') {
+                  steps {
+                        echo "Deploying in Staging Area"
+                  }
+            }
+            stage('Deploy Production') {
+                  steps {
+                        echo "Deploying in Production Area"
+                  }
+            }
+      }
 }
